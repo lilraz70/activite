@@ -1,0 +1,10 @@
+<x-app-layout>
+    @push('styles')
+        @livewireStyles
+    @endpush
+    @livewire('back.collaborators.create')
+    @push('scripts')
+        @vite(['resources/js/custom/step-form.js'])
+        @livewireScripts
+    @endpush
+</x-app-layout>

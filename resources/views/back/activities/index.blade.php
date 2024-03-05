@@ -1,0 +1,9 @@
+<x-app-layout>
+    @push('styles')
+        @livewireStyles
+    @endpush
+    @livewire('back.activities.index')
+    @push('scripts')
+        @livewireScripts
+    @endpush
+</x-app-layout>

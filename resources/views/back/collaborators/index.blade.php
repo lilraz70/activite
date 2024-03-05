@@ -1,0 +1,9 @@
+<x-app-layout>
+    @push('styles')
+        @livewireStyles
+    @endpush
+    @livewire('back.collaborators.index')
+    @push('scripts')
+        @livewireScripts
+    @endpush
+</x-app-layout>
